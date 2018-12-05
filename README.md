@@ -2,6 +2,7 @@
 In the app restaurant you can order food, which you can choose from.
 
 ![BeginScherm](docs/BeginScherm.png =250x250)
+<img src="docs/BeginScherm.png" width="100">
 This is the starting screen of the app
 
 ![Appetizers](docs/Appetizers.png =250x250)
