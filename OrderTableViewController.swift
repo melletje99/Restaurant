@@ -75,7 +75,14 @@ class OrderTableViewController: UITableViewController {
         if segue.identifier == "ConfirmationSegue" {
             let orderConfirmationViewController = segue.destination as! OrderConfirmationViewController
             orderConfirmationViewController.minutes = orderMinutes
+        } else if segue.identifier == "OrderDetailSegue" {
+            let menuItemDetailViewController = segue.destination as! MenuItemDetailViewController
+            let index = tableView.indexPathForSelectedRow!.row
+            let id = MenuController.shared.order.menuItems[index].id
+            menuItemDetailViewController.menuItem = MenuController.shared.item(withID: id)
+            menuItemDetailViewController.orderOrNot = 1
         }
+        
     }
     
     @IBAction func unwindToOrderList(segue: UIStoryboardSegue){

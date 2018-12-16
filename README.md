@@ -1,26 +1,40 @@
 # Restaurant
-In the app restaurant you can order food, which you can choose from.
+## Initial Features
+### -Retrieve data from internet
+### -Choose a category
+### -See a detailed view of a dish
+### -Add the dish to your order
+### -See your order
+### -Edit your order
+### -Submit your order
 
-<img src="docs/BeginScherm.png" width="250">
-This is the starting screen of the app
+## Updated Features
+### -Added State Restoration
+####        Archive the state so IOS initiates that state next time it's launched
+### -Store the data from the internet on the device and update it only when the app is launched
+### -Added the function to see a detailed view of a dish from the order without the option to add it again to the order
+### -Added the function to enlarge the image to full screen when in detailed view
 
-<img src="docs/Appetizers.png" width="250">
-These are the appetizers you can choose from
+### Home Screen
+<kbd><img src="docs/home.png" width="300"></kbd>
 
-<img src="docs/Entrees.png" width="250">
-These are the entrees you can choose from
+### Entrees
+<kbd><img src="docs/entrees.png" width="300"></kbd>
 
-<img src="docs/added.png" width="250">
-This the screen you get when you click on a dish
+### Detailed view from menu
+<kbd><img src="docs/mp.png" width="300"></kbd>
 
-<img src="docs/order.png" width="250">
-This is your order screen
+### Full screen image
+<kbd><img src="docs/image.png" width="300"></kbd>
 
-<img src="docs/delete.png" width="250">
-You can also delete dishes from your order
+### Order
+<kbd><img src="docs/order.png" width="300"></kbd>
 
-<img src="docs/submit.png" width="250">
-Submint your order
+### Detailed view from order
+<kbd><img src="docs/detailfromorder.png" width="300"></kbd>
 
-<img src="docs/Dismiss.png" width="250">
-See your waiting time or dismiss your order
+### Confirm your order
+<kbd><img src="docs/confirm.png" width="300"></kbd>
+
+### Dismiss the message
+<kbd><img src="docs/dismiss.png" width="300"></kbd>
