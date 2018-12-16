@@ -19,7 +19,7 @@
 <kbd><img src="docs/home.png" width="300"></kbd>
 
 ### Entrees
-<kbd><img src="docs/entrees.png" width="300"></kbd>
+<kbd><img src="docs/Entrees.png" width="300"></kbd>
 
 ### Detailed view from menu
 <kbd><img src="docs/mp.png" width="300"></kbd>
@@ -37,4 +37,4 @@
 <kbd><img src="docs/confirm.png" width="300"></kbd>
 
 ### Dismiss the message
-<kbd><img src="docs/dismiss.png" width="300"></kbd>
+<kbd><img src="docs/Dismiss.png" width="300"></kbd>
